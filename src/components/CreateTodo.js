@@ -83,7 +83,7 @@ export default class CreateTodo extends Component {
                     <h3>Create Users</h3>
                     <form onSubmit={this.onSubmit}>
                         <div className="form-group">
-                            <label>Username: </label>
+                            <label>Profession: </label>
                             <input  type="text"
                                     className="form-control"
                                     onChange={(e) => this.onChangeTodoUser(e)}
@@ -105,7 +105,7 @@ export default class CreateTodo extends Component {
                                     />
                         </div>
                         <div className="form-group">
-                            <label>Profession: </label>
+                            <label>Username: </label>
                             <input  type="text"
                                     className="form-control"
                                     onChange={(e) => this.onChangeTodoProfession(e)}
@@ -121,7 +121,7 @@ export default class CreateTodo extends Component {
                        
                         <div className="form-group">
                             <input type="submit" value="Create User" onClick={(e) => this.onSubmit(e)} className="btn btn-primary" />
-                            {this.state.values}
+                            {/* {this.state.values} */}
                         </div>
                     </form>
                 </div>
