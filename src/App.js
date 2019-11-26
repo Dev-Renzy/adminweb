@@ -7,7 +7,7 @@ import EditTodo from "./components/EditTodo";
 import TodosList from "./components/TodosList";
 import Login from "./components/Login";
 
-import logo from "./logo.png";
+import logos from "./logos.png";
 
 class App extends Component {
   render() {
@@ -17,7 +17,7 @@ class App extends Component {
           
           <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <a className="navbar-brand"  >
-              <img src={logo} width="150" height="80" />
+              <img src={logos} width="150" height="80" />
             </a>
             <Link to="/edit" className="navbar-brand"><b>ADMIN</b></Link>
             <div className="collpase nav-collapse">
